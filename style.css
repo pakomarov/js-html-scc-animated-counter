@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+a {
+  color: inherit;
+}
+
 body {
   position: relative;
   display: flex;
@@ -57,10 +61,8 @@ header h1 {
   margin: 10px 0;
 }
 
-footer {
-  position: absolute;
-  top: 0;
-  right: 0;
+footer p{
+  text-align: end;
 }
 
 @media(max-width: 700px) {
