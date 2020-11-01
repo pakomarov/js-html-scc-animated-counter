@@ -7,6 +7,7 @@
 }
 
 body {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -15,7 +16,7 @@ body {
   background-color: lightskyblue;
   background-image: url('cow.jpg');
   background-size: cover;
-  color: #fff;
+  color: rgb(255, 166, 0);
 }
 
 .container {
@@ -34,11 +35,9 @@ header {
 
 header h1 {
   font-size: 60px;
-  color: rgb(255, 166, 0);
 }
 
 .counters {
-  color: rgb(255, 166, 0);
   padding: 40px 20px;
 }
 
@@ -56,6 +55,12 @@ header h1 {
 .counters .counter {
   font-size: 45px;
   margin: 10px 0;
+}
+
+footer {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media(max-width: 700px) {
